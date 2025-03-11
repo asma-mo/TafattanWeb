@@ -1,0 +1,141 @@
+/* SignUp Styles */
+body, button, input, textarea, select {
+  font-family: 'Tajawal', sans-serif;
+}
+
+.signup-container {
+  padding: 2rem 0;
+  background-color: #fff;
+  font-family: 'Tajawal', sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+  border: none;
+  margin-bottom: 30px;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.signup-title {
+  font-size: 1.8rem;
+  color: #5d3b8b; /* Purple color for title */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signup-subtitle {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-control, .form-select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  text-align: right;
+  direction: rtl;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #5d3b8b; /* Purple focus color */
+  box-shadow: 0 0 0 0.2rem rgba(93, 59, 139, 0.25);
+}
+
+/* Ensure dropdown arrow appears on the left for RTL */
+.form-select {
+  background-position: left 0.75rem center;
+}
+
+/* Override Bootstrap button styles */
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #5d3b8b;
+  --bs-btn-border-color: #5d3b8b;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #4a2e70;
+  --bs-btn-hover-border-color: #442968;
+  --bs-btn-focus-shadow-rgb: 111, 82, 153;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #442968;
+  --bs-btn-active-border-color: #3e2560;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #5d3b8b;
+  --bs-btn-disabled-border-color: #5d3b8b;
+}
+
+.submit-button {
+  padding: 14px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  direction: rtl;
+}
+
+.modal-header, .modal-body, .modal-footer {
+  padding: 20px;
+  text-align: right;
+  border: none;
+}
+
+.modal-title {
+  color: #5d3b8b; /* Purple color for modal title */
+  font-family: 'Tajawal', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.modal-body {
+  font-family: 'Tajawal', sans-serif;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.modal-footer button {
+  background-color: #5d3b8b; /* Purple color for modal button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 18px;
+}
+
+.modal-footer button:hover {
+  background-color: #4a2e70; /* Darker purple for hover */
+}
+
+@media (max-width: 768px) {
+  .signup-container {
+    padding: 1rem;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+}

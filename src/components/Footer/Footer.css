@@ -1,0 +1,22 @@
+.footer {
+  background-color: #f8f9fa; 
+  padding: 20px 0; 
+  font-size: 14px; 
+  color: #0b132b; 
+  font-family: "Tajawal", sans-serif;
+  text-align: center;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+.copyright {
+  color: black; /* Updated to match the purple color theme */
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 15px 0;
+  }
+}

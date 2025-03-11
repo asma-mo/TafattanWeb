@@ -1,0 +1,41 @@
+.custom-navbar {
+    background-color: #5D2587; /* Updated to match the new purple color */
+    color: white;
+    font-size: 25px;
+    padding: 10px 0;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    color: white !important; /* Ensure text color stays white */
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .navbar-brand:hover {
+    color: #f0f0f0 !important;
+  }
+  
+  .custom-navbar img {
+    margin-left: 10px; /* Adjusted for RTL */
+  }
+  
+  .menu-icon {
+    font-size: 20px;
+    color: white;
+  }
+  
+  body {
+    font-family: "Tajawal", sans-serif;
+  }
+  
+  @media (max-width: 768px) {
+    .custom-navbar {
+      padding: 8px 0;
+    }
+    
+    .navbar-brand {
+      font-size: 22px;
+    }
+  }
