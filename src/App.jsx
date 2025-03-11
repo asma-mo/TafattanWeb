@@ -38,7 +38,6 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import {LandingPage} from './components/LandingPage'
 import { AuthProvider } from './components/contexts/AuthContext';
 import { ThankMessage } from './components/ThankMessage';
-import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   return (
